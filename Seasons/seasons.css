@@ -1,0 +1,92 @@
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+    font-family: Mononoki;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: lightgreen;
+
+}
+
+header img {
+    width: 100%;
+
+}
+
+header {
+    padding: -20px;
+    background-color: tan;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: Mononoki;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: black;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 2%;
+    overflow: auto;
+}
+
+section h1 {
+    color: white;
+    font-family: Cascadia Code;
+    font-size: 550%;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 245px;
+
+
+
+}
+
+section h2 {
+    color: #ec3d0f;
+    font-size: 240%;
+
+}
+
+footer {
+    background-color: tan;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-family: Cascadia Code;
+
+}
+
+.class {
+    width: 50%;
+    float: right;
+
+}
