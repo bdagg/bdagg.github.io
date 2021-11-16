@@ -1,0 +1,100 @@
+body {
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header img {
+    width: 100%;
+}
+
+
+.over {
+    overflow: hidden;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.over li,
+footer li {
+    display: inline;
+}
+
+.over a {
+    color: black;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+footer a {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.over a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+#wrap {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#main {
+    width: 65%;
+    float: right;
+    background-color: lightpink;
+    padding: 1%;
+}
+
+#side {
+    width: 30%;
+    float: left;
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+}
+
+#side li {
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+
+#side a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    background-color: lightpink;
+    overflow: auto;
+}
+
+@media screen and (max-width: 650px) {
+    #wrap {
+        width: 99%;
+    }
+
+    .over a {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .over ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main,
+    #side {
+        float: none;
+        width: 100%;
+    }
